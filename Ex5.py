@@ -2,9 +2,7 @@ import re
 
 num_format = re.compile(r"^\-?[0-9][0-9]*$")
 h1, h2=-1, -1
-cost=0
-t1=0
-t2=0
+cost,t1,t2=0,0,0
 
 def verif(x):
     while True:
