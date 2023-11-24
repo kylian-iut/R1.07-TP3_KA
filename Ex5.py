@@ -32,6 +32,7 @@ for i in range(h1,h2):
     else:
         t1+=1
         cost+=1
+
 print(f"{t1} heure(s) au tarif horaire de 1.0 euro(s)")
 print(f"{t2} heure(s) au tarif horaire de 2.0 euro(s)")
 print(f"Le montant total à payer est de {cost}.0 euro(s).")
